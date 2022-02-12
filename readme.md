@@ -10,3 +10,8 @@ Here lies the weekly projects for BYU Idaho CSE121B courses.
     Week 6 = 
     Week 7 =
 ```
+pages accesible:
+```
+@Aj-Kazza.github.io/...
+'...' = task(week number).html
+```
