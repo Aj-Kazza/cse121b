@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 05 | Sample Solution</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Lesson 2</a></li>
+            <li><a href="#">Lesson 3</a></li>
+            <li><a href="#">Lesson 4</a></li>
+            <li><a href="#">Lesson 5</a></li>
+            <li><a href="#" class="active">Lesson 6</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Apply Your Learning!</h1>
+    </header>
+    <main>
+        <div class="paragrapher">
+            <h2>Heroic Spirits</h2>
+            <div class="paragraphholder">
+                <span id="paragraph"></span>
+            </div>
+            <br>
+            <select id="heroes">
+                <option value="0">[Select]</option>
+                <option value="1">Saber</option>
+                <option value="2">Archer</option>
+                <option value="3">Lancer</option>
+                <option value="4">Rider</option>
+                <option value="5">Caster</option>
+                <option value="6">Assasin</option>
+                <option value="7">Berserker</option>
+            </select>
+        </div>
+        <div class="hero">
+            <div class="nameholder">
+                <h3 id="name"></h3>
+            </div>
+            <div class="hero2">
+                <img id="photo" src="images/template.png" alt="Photo">
+                <div class="infoholder">
+                    <article id="about"></article>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Apply Your Learning! | Lesson 6
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task6.js"></script>
+</body>
+
+</html>
